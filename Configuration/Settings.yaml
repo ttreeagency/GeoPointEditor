@@ -1,0 +1,21 @@
+Neos:
+  Neos:
+    userInterface:
+      inspector:
+        dataTypes:
+          Ttree\GeoPointEditor\GeoPoint:
+            typeConverter: Ttree\GeoPointEditor\GeoPointJsonSerializer
+            editor: Ttree.GeoPointEditor/Inspector/Editors/GeoPointEditor
+            defaultValue: '{ "lat:" 0.00, "lon:" 0.00 }'
+
+    Ui:
+      resources:
+        javascript:
+
+          Ttree.GeoPointEditor:GeoPointEditor:
+            resource: resource://Ttree.GeoPointEditor/Public/GeoPointEditor/Plugin.js
+
+        stylesheets:
+
+          Ttree.GeoPointEditor:GeoPointEditor:
+            resource: resource://Ttree.GeoPointEditor/Public/GeoPointEditor/Plugin.css

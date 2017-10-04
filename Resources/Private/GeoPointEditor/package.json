@@ -1,0 +1,19 @@
+{
+    "description": "Ttree.GeoPointEditor:GeoPoint",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "build": "neos-react-scripts build",
+        "watch": "neos-react-scripts watch"
+    },
+    "devDependencies": {
+        "@neos-project/neos-ui-extensibility": "1.0.0-beta",
+        "@neos-project/react-ui-components": "^1.0.0-beta",
+        "prop-types": "^15.6.0",
+        "react-google-maps": "^8.3.4",
+        "recompose": "^0.25.1"
+    },
+    "neos": {
+        "buildTargetDirectory": "../../Public/GeoPointEditor"
+    }
+}

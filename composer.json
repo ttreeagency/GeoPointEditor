@@ -1,0 +1,19 @@
+{
+    "description": "Neos CMS inspector editor to manage GeoPoint coordinate, based on Google Maps",
+    "type": "neos-package",
+    "license": "MIT",
+    "name": "ttree/geopointeditor",
+    "require": {
+        "neos/neos-ui": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ttree\\GeoPointEditor\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Ttree.GeoPointEditor"
+        }
+    }
+}
