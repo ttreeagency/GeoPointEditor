@@ -6,7 +6,7 @@ Neos:
           Ttree\GeoPointEditor\GeoPoint:
             typeConverter: Ttree\GeoPointEditor\GeoPointJsonSerializer
             editor: Ttree.GeoPointEditor/Inspector/Editors/GeoPointEditor
-            defaultValue: '{ "lat:" 0.00, "lon:" 0.00 }'
+            defaultValue: '{ "lat": 0.00, "lon": 0.00 }'
 
     Ui:
       resources:
